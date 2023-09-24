@@ -17,7 +17,6 @@ function useWindow(name) {
   }, [close]);
 
   const isVisible = name === openName;
-  console.log(isVisible);
 
   return { ref, isVisible, close };
 }
